@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/krek07/Documents/systemverilog/VSCode/adder
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1705008580
+!i10b 1
+!s100 ??VU^^<;iTlOQiCHFDZ<o0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2I@U;PEIQA@3BB16]?CEn0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1705008334
+8adder.sv
+Fadder.sv
+!i122 3
+L0 1 25
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1705008580.000000
+!s107 adder.sv|
+!s90 -reportprogress|300|-sv|adder.sv|
+!i113 1
+o-sv
+Z7 tCvgOpt 0
+vadder_tb
+R1
+R2
+!i10b 1
+!s100 A?HmE5B5UgdV0EiY@Ce3@1
+R3
+IjAkTKFZ4M@O^]1j;mOP^z3
+R4
+S1
+R0
+w1705008576
+8adder_tb.sv
+Fadder_tb.sv
+!i122 4
+L0 1 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 adder_tb.sv|
+!s90 -reportprogress|300|-sv|adder_tb.sv|
+!i113 1
+o-sv
+R7
+vrca
+R1
+Z8 !s110 1705098632
+!i10b 1
+!s100 UK_;SH>4[3oQ;a8Bz9K]H3
+R3
+IA1N0eRl_:O56<2Bk_9KZl3
+R4
+S1
+R0
+w1705098627
+8rca.sv
+Frca.sv
+!i122 5
+L0 1 31
+R5
+r1
+!s85 0
+31
+Z9 !s108 1705098632.000000
+!s107 rca.sv|
+!s90 -reportprogress|300|-sv|rca.sv|
+!i113 1
+o-sv
+R7
+vrca_tb
+R1
+R8
+!i10b 1
+!s100 e5OgkzR`_fa^ae:^TAcLC2
+R3
+I8lLRjze3f5IT9[i_?Vk:T2
+R4
+S1
+R0
+w1705098506
+8rca_tb.sv
+Frca_tb.sv
+!i122 6
+L0 1 59
+R5
+r1
+!s85 0
+31
+R9
+!s107 rca_tb.sv|
+!s90 -reportprogress|300|-sv|rca_tb.sv|
+!i113 1
+o-sv
+R7

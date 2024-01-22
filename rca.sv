@@ -1,0 +1,31 @@
+module rca
+#(parameter WIDTH = 4)
+(
+  input     [WIDTH-1:0] a_i ,
+  input     [WIDTH-1:0] b_i,
+  input     carry_i,
+  output    [WIDTH-1:0] sum_o,
+  output    carry_o   
+);
+
+logic [WIDTH:0] carry;
+
+assign carry[0] = carry_i;
+
+generate;
+  genvar i;
+  for (i = 0; i <= WIDTH-1; i = i+1) 
+  begin
+    adder FA(
+      .a_i      (a_i[i]     ),
+      .b_i      (b_i[i]     ),
+      .carry_i  (carry[i]   ),
+      .sum_o    (sum_o[i]   ),
+      .carry_o  (carry[i+1] )
+    );
+  end
+endgenerate
+
+assign carry_o = carry[WIDTH];
+
+endmodule
